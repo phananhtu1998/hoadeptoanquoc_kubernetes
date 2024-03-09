@@ -1,0 +1,333 @@
+.customstyles {
+    display: block;
+    font-size: small;
+    line-height: 1.5;
+}
+
+.h1customtext {
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.spantextcenter {
+    text-align: center;
+}
+
+.custombox {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.customcontainer {
+    display: block;
+    text-align: left;
+    padding: 10px;
+}
+
+.onchangcustomcontainer {
+    max-width: 100%;
+    text-align: center;
+    border: 2px solid #666;
+    border-radius: 5px;
+}
+
+.customlist {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.licustombox {
+    flex: 0 0 25%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+.divcustomcontainer {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    border: solid 1px #df2f5538;
+}
+
+.divcustomcontainer:hover {
+    border: solid 1px red;
+}
+
+.divcustomelement {
+    margin: 0;
+    position: relative;
+    padding-top: 100%;
+}
+
+.customimage {
+    padding: 10px;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    overflow: hidden;
+    /* Đảm bảo không bị tràn khi ảnh phóng to */
+    transition: transform 0.5s ease;
+    /* Tạo hiệu ứng chuyển động mượt mà */
+}
+
+.customimage:hover {
+    transform: scale(1.1);
+}
+
+.customtexth2:hover {
+    color: red;
+}
+
+.customtexth2 {
+    margin: 10px 0 0;
+    color: inherit;
+    font-size: medium;
+    font-weight: normal;
+    line-height: 1.1;
+    text-decoration: none;
+}
+
+.custominlineblock {
+    display: inline-block;
+    font-size: medium;
+    font-weight: bold;
+    color: #E13028;
+}
+
+.custominlineelement {
+    padding: 10px;
+    text-decoration: line-through;
+    margin-left: 10px;
+    display: inline-block;
+    margin: 0;
+}
+
+.customblockcenter {
+    margin: 10px;
+    display: block;
+    text-align: center;
+}
+
+.customlink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.custombutton {
+    background: #ffb916;
+    color: #FFF;
+    padding: 5px 25px;
+    border-radius: 4px;
+}
+
+.custombutton:hover {
+    background: #E59B11;
+}
+
+.paginaioncustomcontainer {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .licustombox {
+        flex: 0 0 50%;
+        /* Hiển thị 2 cột trên màn hình nhỏ */
+    }
+
+    .customcontainer {
+        text-align: center;
+        /* Căn giữa nội dung trên màn hình nhỏ */
+    }
+
+    .onchangcustomcontainer {
+        width: 100%;
+        /* Làm cho select box chiếm toàn bộ chiều rộng */
+    }
+
+    .customcontainer {
+        text-align: left;
+    }
+
+    .onchangcustomcontainer {
+        max-width: 30%;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 430px) {
+    .licustombox {
+        flex: 0 0 50%;
+        /* Hiển thị 2 cột trên màn hình nhỏ */
+    }
+
+    .customcontainer {
+        text-align: center;
+        /* Căn giữa nội dung trên màn hình nhỏ */
+    }
+
+    .customcontainer {
+        text-align: left;
+    }
+
+    .onchangcustomcontainer {
+        max-width: 30%;
+        font-size: 12px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 393px) {
+    .licustombox {
+        flex: 0 0 50%;
+        /* Hiển thị 2 cột trên màn hình nhỏ */
+    }
+
+    .customcontainer {
+        text-align: center;
+        /* Căn giữa nội dung trên màn hình nhỏ */
+    }
+
+    .custombutton {
+        font-size: 10px;
+    }
+
+    .customcontainer {
+        text-align: left;
+    }
+
+    .onchangcustomcontainer {
+        width: 100%;
+        max-width: 34%;
+        font-size: 12px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .licustombox {
+        flex: 0 0 50%;
+        /* Hiển thị 2 cột trên màn hình nhỏ */
+    }
+
+    .customcontainer {
+        text-align: center;
+        /* Căn giữa nội dung trên màn hình nhỏ */
+    }
+
+    .custombutton {
+        font-size: 10px;
+    }
+
+    .customcontainer {
+        text-align: left;
+    }
+
+    .onchangcustomcontainer {
+        max-width: 34%;
+        font-size: 12px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 360px) {
+    .licustombox {
+        flex: 0 0 50%;
+        /* Hiển thị 2 cột trên màn hình nhỏ */
+    }
+
+    .customcontainer {
+        text-align: center;
+        /* Căn giữa nội dung trên màn hình nhỏ */
+    }
+
+    .custombutton {
+        font-size: 10px;
+    }
+
+    .customcontainer {
+        text-align: left;
+    }
+
+    .onchangcustomcontainer {
+        max-width: 34%;
+        font-size: 12px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .licustombox {
+        flex: 0 0 50%;
+        /* Hiển thị 2 cột trên màn hình nhỏ */
+    }
+
+    .customcontainer {
+        text-align: center;
+        /* Căn giữa nội dung trên màn hình nhỏ */
+    }
+
+    .custombutton {
+        font-size: 7px;
+    }
+
+    .customcontainer {
+        text-align: left;
+        font-size: 11px;
+    }
+
+    .onchangcustomcontainer {
+        max-width: 30%;
+        font-size: 10px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 240px) {
+    .licustombox {
+        flex: 0 0 100%;
+        /* Hiển thị 2 cột trên màn hình nhỏ */
+    }
+
+    .customcontainer {
+        text-align: center;
+        /* Căn giữa nội dung trên màn hình nhỏ */
+    }
+
+    .onchangcustomcontainer {
+        width: 100%;
+        /* Làm cho select box chiếm toàn bộ chiều rộng */
+    }
+
+    .custombutton {
+        font-size: 7px;
+    }
+
+    .customcontainer {
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .onchangcustomcontainer {
+        max-width: 61%;
+        font-size: 10px;
+    }
+}

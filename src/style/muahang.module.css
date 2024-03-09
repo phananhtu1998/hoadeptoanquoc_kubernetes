@@ -1,0 +1,862 @@
+.customStyle {
+    display: block;
+    vertical-align: top;
+}
+
+.containerStyle {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.relativeContainer {
+    padding: 10px 0;
+    position: relative;
+}
+
+.divstyle {
+    box-sizing: border-box;
+}
+
+.emphasisText {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.76em;
+    margin-block-end: 0.76em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-weight: bold;
+}
+
+.sectionHeader {
+    padding: 20px 0 10px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px dotted #ccc;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.inlineBlock {
+    width: 20%;
+    display: inline-block;
+}
+
+.inlineBlock30 {
+    width: 30%;
+    display: inline-block;
+}
+
+.rightAligned {
+    width: 20%;
+    text-align: right;
+    display: inline-block;
+}
+
+.divrightAligned {
+    width: 10%;
+    text-align: right;
+    display: inline-block;
+}
+
+.customStyleblock {
+    font-size: 16px;
+    display: block;
+    padding: 2px;
+}
+
+.customInlineBlock {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    text-align: center;
+}
+
+.customTextStyle {
+    text-decoration: none;
+    color: inherit;
+}
+
+.imgResponsive {
+    width: 80px;
+    max-width: 100%;
+    height: auto;
+}
+
+.customdivInlineBlock {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+.customBlock {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+.spanstyle {
+    width: 20%;
+}
+
+.customWidth {
+    width: 78%;
+    margin-left: 2%;
+}
+
+.displayblock {
+    display: block;
+}
+
+.divcustomInlineBlock {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.customStylebold {
+    font-weight: bold;
+    text-align: right;
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+.borderStyle {
+    border: 1px solid #666;
+    margin-right: 2px;
+    display: inline-block;
+}
+
+.inlineBlockWithBorder {
+    display: inline-block;
+    border-right: 1px solid #666;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.horizontalText {
+    width: 50px;
+    text-align: center;
+    border: 0;
+    writing-mode: horizontal-tb;
+    padding-block: 1px;
+    padding-inline: 2px;
+    margin: 0;
+}
+
+.borderLeftContainer {
+    border-left: 1px solid #666;
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.boldRightContainer {
+    display: inline-block;
+    font-weight: bold;
+    width: 10%;
+    text-align: right;
+}
+
+.textAlignRightContainer {
+    text-align: right;
+    border-bottom: 1px dotted #ccc;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.iconContainer {
+    display: inline-block;
+    font-size: 20px;
+    font-style: normal;
+    font-family: 'Font Awesome 5 Pro';
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    cursor: pointer;
+    text-align: right;
+    padding: 5px;
+    color: inherit;
+    font-weight: 300;
+}
+
+.borderBottomDotted {
+    border-bottom: 1px dotted rgb(204, 204, 204);
+}
+
+.blockright {
+    font-size: 18px;
+    text-align: right;
+    display: block;
+}
+
+.paddingInlineBlock {
+    padding: 0px;
+    display: inline-block;
+}
+
+.inlineBlockStyle {
+    font-size: 16px;
+    width: 140px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.textLeftStyle {
+    text-align: left;
+    display: block;
+}
+
+.customPaddingStyle {
+    padding: 5px 0;
+    display: block;
+}
+
+.divcustomTextStyle {
+    font-size: 25px;
+    margin: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.customBlockStyle {
+    padding: 5px 0;
+    display: block;
+    box-sizing: border-box;
+}
+
+.customInputStyle {
+    vertical-align: middle;
+    width: 600px;
+    height: 40px;
+    padding-left: 10px;
+    writing-mode: horizontal-tb;
+    padding-block: 1px;
+    padding-inline: 2px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.hktcustomInputStyle {
+    vertical-align: middle;
+    width: 600px;
+    height: 40px;
+    padding-left: 10px;
+    writing-mode: horizontal-tb;
+    padding-block: 1px;
+    padding-inline: 2px;
+    font-size: 14px;
+}
+
+.customTextAreaStyle {
+    vertical-align: top;
+    height: 88px;
+    width: 600px;
+    font-family: monospace;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    cursor: text;
+    resize: auto;
+    margin: 0em;
+    font-size: 14px;
+}
+
+.customButtonStyle {
+    margin-left: 0;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 300px;
+    float: left;
+    background: #4caf50;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.customButtonnextStyle {
+    margin-right: 0;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 290px;
+    margin: 0 10px;
+    float: left;
+    background: #df2f55;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+}
+
+@media (max-width: 1024px) {
+    .relativeContainer {
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 834px) {
+    .rightAligned {
+        text-align: left;
+    }
+
+    .containerStyle {
+        max-width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .divcustomInlineBlock {
+        text-align: left;
+    }
+
+    .customStyleblock {
+        font-size: 14px;
+    }
+
+    .customStyleblock {
+        font-size: 13px;
+    }
+
+    .customStylebold {
+        font-size: 15px;
+    }
+
+    .sectionHeader {
+        font-size: 14px;
+    }
+
+    .customButtonnextStyle {
+        margin: -24px 10px;
+    }
+
+    .blockright {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 800px) {
+    .rightAligned {
+        text-align: left;
+    }
+
+    .containerStyle {
+        max-width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .divcustomInlineBlock {
+        text-align: left;
+    }
+
+    .customStyleblock {
+        font-size: 14px;
+    }
+
+    .customStyleblock {
+        font-size: 13px;
+    }
+
+    .customStylebold {
+        font-size: 15px;
+    }
+
+    .sectionHeader {
+        font-size: 13px;
+    }
+
+    .customButtonnextStyle {
+        margin: -24px 10px;
+    }
+
+    .blockright {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 688px) {
+    .rightAligned {
+        text-align: left;
+    }
+
+    .containerStyle {
+        max-width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .divcustomInlineBlock {
+        text-align: left;
+    }
+
+    .customStyleblock {
+        font-size: 14px;
+    }
+
+    .customStyleblock {
+        font-size: 13px;
+    }
+
+    .customStylebold {
+        font-size: 15px;
+    }
+
+    .sectionHeader {
+        font-size: 13px;
+    }
+
+    .customButtonnextStyle {
+        margin: -39px 310px;
+    }
+
+    .blockright {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .rightAligned {
+        text-align: left;
+    }
+
+    .containerStyle {
+        max-width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .divcustomInlineBlock {
+        text-align: left;
+    }
+
+    .customStyleblock {
+        font-size: 10px;
+    }
+
+    .customStylebold {
+        font-size: 13px;
+    }
+
+    .sectionHeader {
+        font-size: 10px;
+    }
+
+    .customButtonnextStyle {
+        margin: -40px 290px;
+        width: 230px;
+    }
+
+    .blockright {
+        font-size: 16px;
+    }
+
+    .customdivInlineBlock {
+        font-size: 13px;
+    }
+
+    .customButtonStyle {
+        width: 230px;
+    }
+
+    .customInputStyle {
+        width: 520px;
+    }
+
+    .hktcustomInputStyle {
+        width: 520px;
+    }
+
+    .customTextAreaStyle {
+        width: 520px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 430px) {
+    .rightAligned {
+        text-align: left;
+    }
+
+    .containerStyle {
+        max-width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .divcustomInlineBlock {
+        text-align: left;
+    }
+
+    .customStyleblock {
+        font-size: 8px;
+    }
+
+    .customStylebold {
+        font-size: 8px;
+    }
+
+    .sectionHeader {
+        font-size: 8px;
+    }
+
+    .customButtonnextStyle {
+        margin: -40px 187px;
+        width: 160px;
+        font-size: 8px;
+    }
+
+    .blockright {
+        font-size: 14px;
+    }
+
+    .customdivInlineBlock {
+        font-size: 12px;
+    }
+
+    .customButtonStyle {
+        width: 160px;
+        font-size: 8px;
+    }
+
+    .customInputStyle {
+        width: 347px;
+        font-size: 8px;
+    }
+
+    .hktcustomInputStyle {
+        width: 347px;
+        font-size: 8px;
+    }
+
+    .customTextAreaStyle {
+        width: 347px;
+        font-size: 12px;
+        font-size: 8px;
+    }
+
+    .borderLeftContainer {
+        padding: 5px 7px;
+    }
+
+    .horizontalText {
+        width: 25px;
+    }
+
+    .inlineBlockWithBorder {
+        padding: 5px 7px;
+    }
+}
+
+@media (max-width: 393px) {
+    .rightAligned {
+        text-align: left;
+    }
+
+    .containerStyle {
+        max-width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .divcustomInlineBlock {
+        text-align: left;
+    }
+
+    .customStyleblock {
+        font-size: 8px;
+    }
+
+    .customStylebold {
+        font-size: 8px;
+    }
+
+    .sectionHeader {
+        font-size: 8px;
+    }
+
+    .customButtonnextStyle {
+        margin: -40px 161px;
+        width: 152px;
+        font-size: 8px;
+    }
+
+    .blockright {
+        font-size: 14px;
+    }
+
+    .customdivInlineBlock {
+        font-size: 12px;
+    }
+
+    .customButtonStyle {
+        width: 152px;
+        font-size: 8px;
+    }
+
+    .customInputStyle {
+        width: 327px;
+        font-size: 8px;
+    }
+
+    .hktcustomInputStyle {
+        width: 327px;
+        font-size: 8px;
+    }
+
+    .customTextAreaStyle {
+        width: 327px;
+        font-size: 8px;
+    }
+
+    .borderLeftContainer {
+        padding: 5px 7px;
+    }
+
+    .horizontalText {
+        width: 20px;
+    }
+
+    .inlineBlockWithBorder {
+        padding: 5px 7px;
+    }
+}
+
+@media (max-width: 375px) {
+    .rightAligned {
+        text-align: left;
+    }
+
+    .containerStyle {
+        max-width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .divcustomInlineBlock {
+        text-align: left;
+    }
+
+    .customStyleblock {
+        font-size: 8px;
+    }
+
+    .customStylebold {
+        font-size: 8px;
+    }
+
+    .sectionHeader {
+        font-size: 8px;
+    }
+
+    .customButtonnextStyle {
+        margin: -40px 161px;
+        width: 152px;
+        font-size: 8px;
+    }
+
+    .blockright {
+        font-size: 14px;
+    }
+
+    .customdivInlineBlock {
+        font-size: 12px;
+    }
+
+    .customButtonStyle {
+        width: 152px;
+        font-size: 8px;
+    }
+
+    .customInputStyle {
+        width: 312px;
+        font-size: 8px;
+    }
+
+    .hktcustomInputStyle {
+        width: 312px;
+        font-size: 8px;
+    }
+
+    .customTextAreaStyle {
+        width: 312px;
+        font-size: 8px;
+    }
+
+    .borderLeftContainer {
+        padding: 5px 7px;
+    }
+
+    .horizontalText {
+        width: 20px;
+    }
+
+    .inlineBlockWithBorder {
+        padding: 5px 7px;
+    }
+}
+
+@media (max-width: 360px) {
+    .rightAligned {
+        text-align: left;
+    }
+
+    .containerStyle {
+        max-width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .divcustomInlineBlock {
+        text-align: left;
+    }
+
+    .customStyleblock {
+        font-size: 8px;
+    }
+
+    .customStylebold {
+        font-size: 8px;
+    }
+
+    .sectionHeader {
+        font-size: 8px;
+    }
+
+    .customButtonnextStyle {
+        margin: -40px 155px;
+        width: 145px;
+        font-size: 8px;
+    }
+
+    .blockright {
+        font-size: 14px;
+    }
+
+    .customdivInlineBlock {
+        font-size: 12px;
+    }
+
+    .customButtonStyle {
+        width: 145px;
+        font-size: 8px;
+    }
+
+    .customInputStyle {
+        width: 299px;
+        font-size: 8px;
+    }
+
+    .hktcustomInputStyle {
+        width: 299px;
+        font-size: 8px;
+    }
+
+    .customTextAreaStyle {
+        width: 299px;
+        font-size: 8px;
+    }
+
+    .borderLeftContainer {
+        padding: 5px 7px;
+    }
+
+    .horizontalText {
+        width: 20px;
+    }
+
+    .inlineBlockWithBorder {
+        padding: 5px 7px;
+    }
+}
+
+@media (max-width: 240px) {
+    .rightAligned {
+        text-align: left;
+    }
+
+    .containerStyle {
+        max-width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .divcustomInlineBlock {
+        text-align: left;
+    }
+
+    .customStyleblock {
+        font-size: 8px;
+    }
+
+    .customStylebold {
+        font-size: 8px;
+    }
+
+    .sectionHeader {
+        font-size: 8px;
+    }
+
+    .customButtonnextStyle {
+        margin: -40px 155px;
+        width: 145px;
+        font-size: 8px;
+    }
+
+    .blockright {
+        font-size: 14px;
+    }
+
+    .customdivInlineBlock {
+        font-size: 12px;
+    }
+
+    .customButtonStyle {
+        width: 145px;
+        font-size: 8px;
+    }
+
+    .customInputStyle {
+        width: 299px;
+        font-size: 8px;
+    }
+
+    .hktcustomInputStyle {
+        width: 299px;
+        font-size: 8px;
+    }
+
+    .customTextAreaStyle {
+        width: 299px;
+        font-size: 8px;
+    }
+
+    .borderLeftContainer {
+        padding: 5px 7px;
+    }
+
+    .horizontalText {
+        width: 20px;
+    }
+
+    .inlineBlockWithBorder {
+        padding: 5px 7px;
+    }
+}

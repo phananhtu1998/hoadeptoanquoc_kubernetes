@@ -1,0 +1,729 @@
+.nodetaildiv {
+    text-align: center;
+}
+
+.customelement {
+    display: block;
+    vertical-align: top;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.customcontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.stylediv {
+    padding: 10px 0;
+}
+
+.customelementdetail {
+    display: block;
+    vertical-align: top;
+    position: relative;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.customcontainerdetail {
+    padding: 10px 0;
+    position: relative;
+}
+
+.customblock {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+.customdivelement {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.customdivcontainer {
+    margin: 0;
+    position: relative;
+    padding-top: 100%;
+}
+
+.customdivlink {
+    text-decoration: none;
+    color: indianred;
+}
+
+.customimage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.customblocklimk {
+    margin: 10px 0;
+    display: block;
+}
+
+.customdivelementlink {
+    height: 50px;
+    border: 1px solid #ccc;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.namecustomelement {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2%;
+}
+
+.customtext {
+    font-size: 24px;
+    margin: 10px 0 0;
+    font-weight: normal;
+}
+
+.pcustomtext {
+    font-size: 18px;
+    margin-bottom: 10px !important;
+    font-weight: bold;
+    color: #E13028;
+}
+
+.hethongcustomelement {
+    display: block;
+    vertical-align: top;
+    font-size: 14px;
+    background: #ECF7ED;
+    position: relative;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.htcustomborder {
+    border: 1px solid #c4ddc8;
+    border-radius: 10px;
+}
+
+.htcustomcontainer {
+    padding: 20px;
+    position: relative;
+    display: block;
+}
+
+.customtexts {
+    text-align: justify;
+}
+
+.fontweghttext {
+    font-weight: bold;
+}
+
+.colorfortext {
+    color: #008000;
+}
+
+.dtcustomtext {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.displayBlock {
+    display: block;
+    font-size: 14px;
+}
+
+.boldText {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.redText {
+    color: #ff0000;
+    font-size: 14px;
+}
+
+.redLink {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.boldBlock {
+    display: block;
+    font-weight: bold;
+}
+
+.redNoDecoration {
+    text-decoration: none;
+    color: red;
+}
+
+.iconStyle {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    aspect-ratio: auto 20/20;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    cursor: pointer;
+}
+
+.blockStyle {
+    display: block;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+.borderStyle {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.relativeBlockStyle {
+    position: relative;
+    display: block;
+}
+
+.blockdisplaygia {
+    display: block;
+}
+
+.relativepoisition {
+    position: relative;
+}
+
+.cardStyle {
+    background: #ee3f862e;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.inlineBorderStyle {
+    display: inline-block;
+    border: 1px solid #666;
+    margin-right: 2px;
+}
+
+.inlineBlockWithBorderRight {
+    border-right: 1px solid #666;
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.customStyle {
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    border: 0;
+}
+
+.inlineBlockWithBorderLeft {
+    border-left: 1px solid #666;
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.customButton {
+    padding: 20px 0 !important;
+    borderRadius: 5px;
+    width: 100%;
+    margin-top: 15px;
+    height: 70px;
+    line-height: 1.2;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: #E35454;
+    color: #FFF;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textStyles {
+    display: block;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.iherihfontweight {
+    font-weight: inherit;
+}
+
+.blockStyles {
+    display: block;
+    margin: 40px 0 0;
+    vertical-align: top;
+}
+
+.centertextalign {
+    text-align: center;
+}
+
+.uppercaseTitle {
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 30px;
+    padding: 0;
+    font-size: 28px;
+    text-align: center;
+    color: #E35454;
+}
+
+.customImage {
+    width: 27px;
+    height: 27px;
+    background: #FFF;
+    position: absolute;
+    bottom: -32px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 1;
+    background-image: url(../../public/interface.png);
+    background-size: 27px;
+}
+
+.customTextde {
+    font-size: 28px;
+    text-align: center;
+    color: #E35454;
+}
+
+.separatorLine {
+    width: 170px;
+    height: 1px;
+    background: #CCC;
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.centeredBlock {
+    padding: 20px 0 0;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.divcenteredBlock {
+    display: block;
+    text-align: center;
+}
+
+.customList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.columnContainer {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    clear: both;
+    text-align: center;
+}
+
+.containerWithBorder {
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    border: solid 1px #df2f5538;
+}
+
+.containerWithBorder:hover {
+    border: solid 1px red;
+}
+
+.absoluteCover:hover {
+    transform: scale(1.1);
+}
+
+.rotatedBox {
+    position: absolute;
+    display: block;
+    width: 290px;
+    padding: 0;
+    background: linear-gradient(to right, #faab08, #d42611);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 1;
+    font-size: 13px;
+    transform: rotate(45deg);
+    right: -115px;
+    top: 23px;
+}
+
+.relativeContainer {
+    margin: 10px;
+    position: relative;
+    padding-top: 100%;
+}
+
+.absoluteCover {
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* Đảm bảo không bị tràn khi ảnh phóng to */
+    transition: transform 0.5s ease;
+    /* Tạo hiệu ứng chuyển động mượt mà */
+}
+
+.noDecoration {
+    text-decoration: none;
+    color: inherit;
+}
+
+.h2marginstyle {
+    margin: 10px 0 0;
+}
+
+.inheritFont {
+    color: inherit;
+    font-size: large;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.inheritFont:hover {
+    color: #d31212;
+    cursor: pointer;
+}
+
+.mediumText {
+    font-size: medium;
+    font-weight: normal;
+    color: #E13028;
+}
+
+.centeredBlockdiv {
+    margin: 10px 0;
+    display: block;
+    text-align: center;
+}
+
+.customButtonmuahang {
+    background: #ffb916;
+    color: #FFF;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+
+.centerblocktext {
+    display: block;
+    text-align: center;
+}
+
+.buttonStylecusor {
+    padding: 8px 30px;
+    color: #008CBA;
+    background: white;
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #008CBA;
+    border-radius: 5px;
+}
+
+.buttonStylecusor:hover {
+    color: #0aa9de;
+    border: 1px solid #0aa9de;
+}
+
+@media only screen and (max-width: 768px) {
+    .customlist {
+        flex-direction: column;
+    }
+
+    .licustombox {
+        flex: 0 0 100%;
+    }
+
+    .customdivelement {
+        width: 100%;
+    }
+
+    .columnContainer {
+        width: 100%;
+    }
+
+    .customdivelement {
+        width: 50%;
+    }
+
+    .columnContainer {
+        width: 50%;
+    }
+}
+
+/* ip14 promax */
+@media only screen and (max-width: 430px) {
+    .customlist {
+        flex-direction: column;
+    }
+
+    .licustombox {
+        flex: 0 0 100%;
+    }
+
+    .customdivelement {
+        width: 100%;
+    }
+
+    .columnContainer {
+        width: 100%;
+    }
+
+    .customdivelement {
+        width: 100%;
+    }
+
+    .columnContainer {
+        width: 50%;
+    }
+
+    /* tên sản phẩm */
+    .customtext {
+        font-size: 20px;
+    }
+
+    /* giá sản phẩm */
+    .pcustomtext {
+        font-size: 16px;
+    }
+
+    .namecustomelement {
+        width: 96%;
+    }
+
+    .centeredBlock {
+        margin-right: 40px;
+    }
+
+    .rotatedBox {
+        width: 297px;
+        font-size: 10px;
+        right: -128px;
+        top: 13px;
+    }
+
+    .inheritFont {
+        font-size: 14px;
+    }
+
+    .customButtonmuahang {
+        font-size: 10px;
+    }
+
+    .centerblocktext {
+        width: 100%;
+        margin: 0px 22px;
+    }
+
+    .buttonStylecusor {
+        border-radius: 3px;
+        font-size: 13px;
+    }
+
+    .customblocklimk {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .customlist {
+        flex-direction: column;
+    }
+
+    .licustombox {
+        flex: 0 0 100%;
+    }
+
+    .customdivelement {
+        width: 100%;
+    }
+
+    .columnContainer {
+        width: 100%;
+    }
+
+    .customdivelement {
+        width: 100%;
+    }
+
+    .columnContainer {
+        width: 50%;
+    }
+
+    /* tên sản phẩm */
+    .customtext {
+        font-size: 20px;
+    }
+
+    /* giá sản phẩm */
+    .pcustomtext {
+        font-size: 16px;
+    }
+
+    .namecustomelement {
+        width: 96%;
+    }
+
+    .centeredBlock {
+        margin-right: 32px;
+    }
+
+    .rotatedBox {
+        width: 297px;
+        font-size: 10px;
+        right: -128px;
+        top: 13px;
+    }
+
+    .inheritFont {
+        font-size: 14px;
+    }
+
+    .customButtonmuahang {
+        font-size: 10px;
+    }
+
+    .centerblocktext {
+        width: 100%;
+        margin: 0px 22px;
+    }
+
+    .buttonStylecusor {
+        border-radius: 3px;
+        font-size: 13px;
+    }
+
+    .customTextde {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 240px) {
+    .customlist {
+        flex-direction: column;
+    }
+
+    .licustombox {
+        flex: 0 0 100%;
+    }
+
+    .customdivelement {
+        width: 100%;
+    }
+
+    .columnContainer {
+        width: 100%;
+    }
+
+    .customdivelement {
+        width: 100%;
+    }
+
+    .columnContainer {
+        width: 100%;
+    }
+
+    /* tên sản phẩm */
+    .customtext {
+        font-size: 16px;
+    }
+
+    /* giá sản phẩm */
+    .pcustomtext {
+        font-size: 14px;
+    }
+
+    .namecustomelement {
+        width: 96%;
+    }
+
+    .centeredBlock {
+        margin-right: 32px;
+    }
+
+    .rotatedBox {
+        width: 297px;
+        font-size: 10px;
+        right: -128px;
+        top: 13px;
+    }
+
+    .inheritFont {
+        font-size: 14px;
+    }
+
+    .customButton {
+        font-size: 11px;
+    }
+
+    .customButtonmuahang {
+        font-size: 10px;
+    }
+
+    .centerblocktext {
+        width: 100%;
+        margin: 0px 22px;
+    }
+
+    .buttonStylecusor {
+        border-radius: 3px;
+        font-size: 13px;
+    }
+
+    .hethongcustomelement {
+        font-size: 12px;
+    }
+
+    .blockStyle {
+        font-size: 12px;
+    }
+
+    .cardStyle {
+        font-size: 12px;
+    }
+
+    .customblocklimk {
+        text-align: center;
+    }
+
+    .customTextde {
+        font-size: 19px;
+    }
+}

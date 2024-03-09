@@ -1,0 +1,48 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hoadeptoanquoc-service
+spec:
+  type: NodePort
+  ports:
+    - port: 8083 # Cổng dịch vụ trên Kubernetes
+      targetPort: 80 # Cổng mà Nginx đang lắng nghe trong container
+      nodePort: 30000 # Cổng bên ngoài của Pod
+  selector:
+    app: hoadeptoanquoc
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hoadeptoanquoc-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hoadeptoanquoc
+  template:
+    metadata:
+      labels:
+        app: hoadeptoanquoc
+    spec:
+      containers:
+        - name: hoadeptoanquoc-container
+          image: phananhtu1998/hoadeptoanquoc
+          resources:
+            limits:
+              cpu: 500m
+            requests:
+              cpu: 200m
+---
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: hoadeptoanquoc-hpa
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: hoadeptoanquoc-deployment
+  minReplicas: 1
+  maxReplicas: 10
+  targetCPUUtilizationPercentage: 5

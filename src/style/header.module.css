@@ -1,0 +1,415 @@
+.divmain {
+    background-color: #F2F2F2;
+}
+
+.div134 {
+    display: flex;
+    flex-direction: row;
+}
+
+.div134 a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 10pt;
+}
+
+.divDescription {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #850132;
+}
+
+.divDescription p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.divDescription1 {
+    font-size: 16pt;
+    color: #850132;
+    font-weight: bolder;
+}
+
+.Headerdivstyle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.spanheader {
+    color: black;
+    font-size: 12pt;
+    font-family: sans-serif;
+}
+
+.hotline {
+    font-size: 12pt;
+    color: #c70a0a
+}
+
+.divorder {
+    background-image: url('../asset/Logo/bg-special.png');
+    height: 100px;
+    object-fit: cover;
+}
+
+.searchItem:hover {
+    background-color: rgba(228, 224, 224, 0.438);
+    list-style: none;
+    margin-bottom: 5px;
+    cursor: pointer
+}
+
+.danhmuc:hover {
+    color: #b72424;
+}
+
+.divslider {
+    display: inline-block;
+    width: 75%;
+    margin: 10px 0 0 0;
+    vertical-align: top;
+    position: relative;
+}
+
+.divchild img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* Đảm bảo hình ảnh không bị méo khi tỷ lệ khác nhau */
+}
+
+.divslider.divchild {
+    max-width: 1200px;
+    text-align: right;
+    margin: 0 0 0 auto
+}
+
+.divheader {
+    background-color: #850132;
+}
+
+.divheaderchild {
+    display: block;
+    vertical-align: top;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.divheaderchild1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+
+.divtimeworking {
+    display: inline-block;
+    color: #0D0E0F;
+    padding: 0 20px
+}
+
+.ptimeworking {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.spantimeworking {
+    color: #ffffff;
+    font-size: 12pt;
+}
+
+.inputext {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    color: fieldtext;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 0px;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+.divlogo {
+    position: relative;
+    padding: 2px 0
+}
+
+.spanlogo {
+    justify-content: space-between
+}
+
+.customsearch {
+    display: inline-block;
+    width: 75%;
+    vertical-align: top;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    box-sizing: border-box;
+}
+
+.divcontain {
+    text-align: right;
+    margin: 0px auto;
+}
+
+.div1 {
+    display: block;
+}
+
+.div2 {
+    display: inline-block;
+    position: relative;
+    height: 40px;
+}
+
+.customflexcontainer {
+    position: absolute;
+    height: inherit;
+    right: 0;
+    top: 0;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+    height: 25px;
+}
+
+.custompopup {
+    position: absolute;
+    padding: 8px;
+    z-index: 999999999999;
+    color: #333;
+    text-align: left;
+    border: 1px dotted #333;
+    background: #fff;
+    min-width: 290px;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+.ulstyle {
+    padding-left: 0;
+    font-size: 13px;
+}
+
+.div3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div3child {
+    display: flex;
+}
+
+.customimage {
+    display: flex;
+    width: 34px;
+    height: 34px;
+    max-width: 34px;
+    max-height: 34px;
+    object-fit: cover;
+}
+
+.spandiv3 {
+    margin-left: 5px;
+}
+
+@media (max-width: 991px) {
+    .divslider {
+        width: 100%;
+    }
+}
+
+@media (max-width: 956px) {
+    .div134 {
+        flex-direction: column;
+        /* Hiển thị các phần tử theo chiều dọc */
+        align-items: center;
+    }
+
+    .divDescription {
+        text-align: center;
+    }
+
+    .divDescription1 {
+        text-align: center;
+        margin-top: 15px;
+        /* Tăng khoảng cách giữa divDescription và divDescription1 */
+    }
+
+    .divslider {
+        width: 100%;
+        /* Chiếm toàn bộ chiều rộng */
+        margin-top: 15px;
+        /* Tăng khoảng cách giữa divDescription1 và divslider */
+    }
+
+    .divchild {
+        max-width: 100%;
+        /* Chiếm toàn bộ chiều rộng */
+    }
+}
+
+@media (max-width: 800px) {
+    .div134 {
+        flex-direction: column;
+        /* Hiển thị các phần tử theo chiều dọc */
+        align-items: center;
+    }
+
+    .divDescription {
+        text-align: center;
+    }
+
+    .divDescription1 {
+        text-align: center;
+        margin-top: 15px;
+        /* Tăng khoảng cách giữa divDescription và divDescription1 */
+    }
+
+    .divslider {
+        width: 100%;
+        /* Chiếm toàn bộ chiều rộng */
+        margin-top: 15px;
+        /* Tăng khoảng cách giữa divDescription1 và divslider */
+    }
+
+    .divchild {
+        max-width: 100%;
+        /* Chiếm toàn bộ chiều rộng */
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+    .divorder {
+        display: none;
+    }
+
+    .customsearch {
+        width: 100%;
+    }
+}
+
+/* Media query cho tablet và màn hình di động */
+@media (max-width: 767px) {
+    .divorder {
+        padding: 10px;
+        /* Điều chỉnh khoảng cách giữa các phần tử bên trong */
+    }
+
+    .divlogo {
+        flex-direction: column;
+        /* Hiển thị logo và thanh tìm kiếm theo chiều dọc */
+        align-items: center;
+        text-align: center;
+    }
+
+    .customsearch {
+        width: 100%;
+        /* Chiếm toàn bộ chiều rộng */
+        margin-top: 10px;
+        /* Tăng khoảng cách từ logo */
+    }
+
+    .div1 {
+        text-align: center;
+    }
+
+    .div2 {
+        display: block;
+        text-align: center;
+    }
+
+    .inputext {
+        width: 100%;
+        /* Chiếm toàn bộ chiều rộng của phần input */
+        margin-bottom: 10px;
+        /* Tăng khoảng cách giữa input và kết quả tìm kiếm */
+    }
+
+    .custompopup {
+        min-width: 100%;
+        /* Chiếm toàn bộ chiều rộng */
+    }
+}
+
+/* Media query cho tablet và màn hình di động */
+@media (max-width: 767px) {
+    .div134 {
+        flex-direction: column;
+        /* Hiển thị các phần tử theo chiều dọc */
+        align-items: center;
+    }
+
+    .divDescription {
+        text-align: center;
+    }
+
+    .divDescription1 {
+        text-align: center;
+        margin-top: 15px;
+        /* Tăng khoảng cách giữa divDescription và divDescription1 */
+    }
+
+    .divslider {
+        width: 100%;
+        /* Chiếm toàn bộ chiều rộng */
+        margin-top: 15px;
+        /* Tăng khoảng cách giữa divDescription1 và divslider */
+    }
+
+    .divchild {
+        max-width: 100%;
+        /* Chiếm toàn bộ chiều rộng */
+    }
+}
+
+/* Media query cho tablet và màn hình di động */
+@media (max-width: 768px) {
+    .div134 {
+        flex-direction: column;
+        /* Hiển thị các phần tử theo chiều dọc */
+        align-items: center;
+    }
+
+    .divDescription {
+        text-align: center;
+    }
+
+    .divDescription1 {
+        text-align: center;
+        margin-top: 15px;
+        /* Tăng khoảng cách giữa divDescription và divDescription1 */
+    }
+
+    .divslider {
+        width: 100%;
+        /* Chiếm toàn bộ chiều rộng */
+        margin-top: 15px;
+        /* Tăng khoảng cách giữa divDescription1 và divslider */
+    }
+
+    .divchild {
+        max-width: 100%;
+        /* Chiếm toàn bộ chiều rộng */
+    }
+}

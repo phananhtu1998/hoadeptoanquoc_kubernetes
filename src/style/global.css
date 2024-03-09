@@ -1,0 +1,45 @@
+.slick-arrow:before {
+    color: #850132;
+    font-size: 30px;
+    display: none;
+}
+
+.slick-arrow.slick-next {
+    transform: translateX(-170%);
+    background-image: url('../../public/banner/next.png');
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+
+.slick-arrow.slick-prev {
+    z-index: 99;
+    transform: translateX(170%);
+    background-image: url('../../public/banner/previous.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.slick-dots li.slick-active button::before {
+    color: #850132;
+}
+
+.slick-dots li button::before {
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    color: #850132;
+}
+
+.nav-link:hover {
+    color: #850132;
+}
+
+@media (max-width: 1024px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 12px;
+    }
+}

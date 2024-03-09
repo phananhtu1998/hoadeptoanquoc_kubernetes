@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta property="og:title" content="Hoa Đẹp Toàn Quốc" />
+  <meta name="description"
+    content="Hoa Đẹp Toàn Quốc để trải nghiệm mua sắm hoa tươi online tuyệt vời nhất! Cam kết đa dạng với bó hoa lãng mạn, hoa chúc mừng sinh nhật và nhiều loại hoa tươi khác. Đặc biệt, giao hàng miễn phí toàn quốc. Đặt hàng đơn giản, nhanh chóng, và chúng tôi cam kết đem đến cho bạn những mẫu hoa tươi chất lượng nhất.Hoa Đẹp Toàn Quốc - Nơi mà mỗi đóa hoa là một câu chuyện tình yêu." />
+  <meta property="og:image" content="%PUBLIC_URL%/hoadeptoanquoc.png" />
+  <meta property="og:type" content="website" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <style>
+    /* Custom CSS to fix the chatbox at the bottom right corner */
+    #tawkchat-minified-wrapper {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+
+    /* Custom CSS for the image in the bottom left corner */
+    #bottom-left-image {
+      position: fixed;
+      bottom: 10px;
+      left: 20px;
+      z-index: 1000;
+    }
+
+    /* css zalo */
+    /* Common styles for the button */
+    #button-contact-vr .button-contact {
+      position: relative;
+      margin-top: -5px;
+    }
+
+    #button-contact-vr .button-contact .phone-vr {
+      position: relative;
+      visibility: visible;
+      background-color: transparent;
+      width: 90px;
+      height: 90px;
+      cursor: pointer;
+      -webkit-backface-visibility: hidden;
+      -webkit-transform: translateZ(0);
+      transition: visibility .5s;
+      display: block;
+    }
+
+    .phone-vr-circle-fill {
+      width: 65px;
+      height: 65px;
+      top: 575px;
+      left: 25px;
+      position: fixed;
+      box-shadow: 0 0 0 0 #2c9fd8;
+      background-color: rgb(44 159 216 / 74%);
+      border-radius: 50%;
+      border: 2px solid transparent;
+      -webkit-animation: phone-vr-circle-fill 2.3s infinite ease-in-out;
+      animation: phone-vr-circle-fill 2.3s infinite ease-in-out;
+      transition: all .5s;
+      -webkit-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+      transform-origin: 50% 50%;
+      -webkit-animuiion: zoom 1.3s infinite;
+      animation: zoom 1.3s infinite;
+      z-index: 1;
+    }
+
+    .phone-vr-img-circle {
+      background-color: #2c9fd8;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      top: 588px;
+      left: 37px;
+      position: fixed;
+      border-radius: 50%;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      -webkit-animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+      animation: phone-vr-circle-fill 1s infinite ease-in-out;
+      z-index: 1;
+    }
+
+    .phone-vr-img-circle a {
+      display: block;
+      line-height: 37px
+    }
+
+    .phone-vr-img-circle img {
+      max-height: 25px;
+      max-width: 27px;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%)
+    }
+
+    @-webkit-keyframes phone-vr-circle-fill {
+      0% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg)
+      }
+
+      10% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg)
+      }
+
+      20% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg)
+      }
+
+      30% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg)
+      }
+
+      40% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg)
+      }
+
+      50% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg)
+      }
+
+      100% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg)
+      }
+    }
+
+    @-webkit-keyframes zoom {
+      0% {
+        transform: scale(.9)
+      }
+
+      70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 15px transparent
+      }
+
+      100% {
+        transform: scale(.9);
+        box-shadow: 0 0 0 0 transparent
+      }
+    }
+
+    @keyframes zoom {
+      0% {
+        transform: scale(.9)
+      }
+
+      70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 15px transparent
+      }
+
+      100% {
+        transform: scale(.9);
+        box-shadow: 0 0 0 0 transparent
+      }
+    }
+
+    /* css cho phone */
+    #button-contact-vr-phone .button-contact-phone {
+      position: fixed;
+      margin-top: -5px;
+    }
+
+    #button-contact-vr-phone .button-contact-phone .phone-vr-phone {
+      position: fixed;
+      visibility: visible;
+      background-color: transparent;
+      width: 90px;
+      height: 90px;
+      cursor: pointer;
+      -webkit-backface-visibility: hidden;
+      -webkit-transform: translateZ(0);
+      transition: visibility .5s;
+      display: block;
+    }
+
+    .phone-vr-circle-fill-phone {
+      width: 65px;
+      height: 65px;
+      top: 665px;
+      left: 25px;
+      position: fixed;
+      box-shadow: 0 0 0 0 #dd2323;
+      background-color: rgba(230, 8, 8, 0.7);
+      border-radius: 50%;
+      border: 2px solid transparent;
+      -webkit-animation: phone-vr-circle-fill-phone 2.3s infinite ease-in-out;
+      animation: phone-vr-circle-fill-phone 2.3s infinite ease-in-out;
+      transition: all .5s;
+      -webkit-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+      transform-origin: 50% 50%;
+      -webkit-animuiion: zoom 1.3s infinite;
+      animation: zoom 1.3s infinite;
+      z-index: 1;
+    }
+
+    .phone-vr-img-circle-phone {
+      background-color: #dd2323;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      top: 677px;
+      left: 37px;
+      position: fixed;
+      border-radius: 50%;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      -webkit-animation: phonering-alo-circle-img-anim-phone 1s infinite ease-in-out;
+      animation: phone-vr-circle-fill-phone 1s infinite ease-in-out;
+      z-index: 1;
+    }
+
+    .phone-vr-img-circle-phone a {
+      display: block;
+      line-height: 37px
+    }
+
+    .phone-vr-img-circle-phone img {
+      max-height: 25px;
+      max-width: 27px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%)
+    }
+
+    @-webkit-keyframes phone-vr-circle-fill-phone {
+      0% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg)
+      }
+
+      10% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg)
+      }
+
+      20% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg)
+      }
+
+      30% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg)
+      }
+
+      40% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg)
+      }
+
+      50% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg)
+      }
+
+      100% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg)
+      }
+    }
+
+    @-webkit-keyframes zoom {
+      0% {
+        transform: scale(.9)
+      }
+
+      70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 15px transparent
+      }
+
+      100% {
+        transform: scale(.9);
+        box-shadow: 0 0 0 0 transparent
+      }
+    }
+
+    @keyframes zoom {
+      0% {
+        transform: scale(.9)
+      }
+
+      70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 15px transparent
+      }
+
+      100% {
+        transform: scale(.9);
+        box-shadow: 0 0 0 0 transparent
+      }
+    }
+
+    @media (max-width: 412px) {
+      .phone-vr-img-circle {
+        top: 509px;
+      }
+
+      .phone-vr-circle-fill {
+        top: 496px;
+      }
+
+      .phone-vr-circle-fill-phone {
+        top: 585px;
+      }
+
+      .phone-vr-img-circle-phone {
+        top: 597px;
+      }
+    }
+
+    @media (max-width: 384px) {
+      .phone-vr-img-circle {
+        top: 481px;
+      }
+
+      .phone-vr-circle-fill {
+        top: 469px;
+      }
+
+      .phone-vr-circle-fill-phone {
+        top: 559px;
+      }
+
+      .phone-vr-img-circle-phone {
+        top: 571px;
+      }
+    }
+
+    @media (max-width: 380px) {
+      .phone-vr-img-circle {
+        top: 509px;
+      }
+
+      .phone-vr-circle-fill {
+        top: 496px;
+      }
+
+      .phone-vr-circle-fill-phone {
+        top: 585px;
+      }
+
+      .phone-vr-img-circle-phone {
+        top: 597px;
+      }
+
+    }
+
+    @media (max-width: 360px) {
+      .phone-vr-img-circle {
+        top: 485px;
+      }
+
+      .phone-vr-circle-fill {
+        top: 473px;
+      }
+
+      .phone-vr-circle-fill-phone {
+        top: 561px;
+      }
+
+      .phone-vr-img-circle-phone {
+        top: 573px;
+      }
+    }
+  </style>
+  <title>Hoa Đẹp Toàn Quốc</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+
+  <!-- Image in the bottom left corner -->
+  <div id="zalo-vr" class="button-contact">
+    <div class="phone-vr">
+      <div class="phone-vr-circle-fill" title="0842174765"></div>
+      <div class="phone-vr-img-circle">
+        <a class="alink" href="https://zalo.me/0842174765" target="_blank">
+          <img src="/zalohold.png" alt="zalo">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="phone-vr-id" class="button-contact-phone">
+    <div class="phone-vr-phone">
+      <div class="phone-vr-circle-fill-phone" title="0979336771"></div>
+      <div class="phone-vr-img-circle-phone">
+        <a class="alink" href="tel:0979336771">
+          <img src="/phone.png" alt="phone">
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="root"></div>
+
+  <!-- Start of Tawk.to Script -->
+  <!-- <script type="text/javascript">
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+      var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/657271b3ff45ca7d47887562/1hh3go9pm';
+      s1.charset = 'UTF-8';
+      s1.setAttribute('crossorigin', '*');
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  </script> -->
+  <!-- Messenger Plugin chat Code -->
+  <div id="fb-root"></div>
+
+  <!-- Your Plugin chat code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
+
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "188940247639847");
+    chatbox.setAttribute("attribution", "biz_inbox");
+  </script>
+
+  <!-- Your SDK code -->
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        xfbml: true,
+        version: 'v18.0'
+      });
+    };
+
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <!-- End of Tawk.to Script -->
+</body>
+
+</html>

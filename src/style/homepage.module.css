@@ -1,0 +1,790 @@
+.divnew {
+    padding: 20px 0 0;
+}
+
+.customlink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.customimage {
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 95%;
+    overflow: hidden;
+    /* Đảm bảo không bị tràn khi ảnh phóng to */
+    transition: transform 0.5s ease;
+    /* Tạo hiệu ứng chuyển động mượt mà */
+}
+
+.customimage:hover {
+    transform: scale(1.1);
+}
+
+.divmargin {
+    margin: 1px 0 0;
+}
+
+.customatext {
+    color: inherit;
+    font-size: large;
+    font-weight: normal;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.customPricetext {
+    font-size: medium;
+    font-weight: normal;
+    color: #E13028;
+}
+
+.customonclickblock {
+    margin: 10px;
+    display: block;
+    text-align: center;
+}
+
+.custombutton {
+    background: #E35454;
+    color: #FFF;
+    padding: 5px 25px;
+    border-radius: 20px;
+}
+
+.customtitlecontainer {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.customtextdebutton {
+    padding: 8px 30px;
+    color: #008CBA;
+    background: white;
+    text-decoration: none;
+    border: 1px solid #008CBA;
+    border-radius: 5px;
+}
+
+.customtextdebutton:hover {
+    color: #0aa9de;
+    border: 1px solid #0aa9de;
+}
+
+.customdivider {
+    margin: 30px 0 0 0;
+    border-bottom: 2px solid #850132;
+}
+
+.customstylecontainer {
+    background: #850132;
+    color: #fff;
+    padding: 6px 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+.customdanhmuchoatext {
+    text-decoration: none;
+    font-style: italic;
+    color: inherit;
+    font-size: 22px;
+    font-weight: bolder;
+    background-color: #850132;
+    color: white;
+    padding: 4px 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+.customhoalist {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.customlishoabox {
+    flex: 0 0 25%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+.customlisthoacontainer {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    border: solid 1px #df2f5538;
+    cursor: pointer;
+}
+
+.customlisthoacontainer:hover {
+    border: solid 1px red;
+}
+
+.customtexthoa:hover {
+    color: red;
+}
+
+
+.customdanhmuchoabox {
+    position: relative;
+    display: block;
+    width: 290px;
+    padding: 0;
+    background: linear-gradient(to right, #faab08, #d42611);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 1;
+    font-size: 13px;
+    transform: rotate(45deg);
+    right: -115px;
+    top: 23px;
+}
+
+.customhoaelement {
+    margin: 0;
+    position: relative;
+    padding-top: 100%;
+}
+
+.customtexthoa {
+    color: inherit;
+    font-size: large;
+    font-weight: normal;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.customtexthoa1 {
+    margin: 3px;
+    font-size: medium;
+    font-weight: normal;
+    color: #E13028;
+}
+
+.custombuttonflowew {
+    background: #ffb916;
+    color: #FFF;
+    padding: 5px 25px;
+    border-radius: 4px;
+}
+
+.custombuttonflowew:hover {
+    background: #E59B11;
+}
+
+.customcontainerflower {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.customdividerflower {
+    margin: 30px 0 0 0;
+    border-bottom: 2px solid #850132;
+}
+
+.customtextflower {
+    font-size: medium;
+    font-weight: normal;
+    color: #E13028;
+}
+
+.customlinkflowers {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 834px) {
+    .customdanhmuchoatext {
+        font-size: 18px;
+    }
+
+    .customhoalist {
+        max-width: 100%;
+        padding: 0 30px;
+    }
+}
+
+/* Kích thước màn hình dưới 600px */
+@media (max-width: 688px) {
+    .customflexbox {
+        flex: 0 0 100%;
+        box-sizing: border-box;
+    }
+
+    .customdanhmuchoabox {
+        font-size: 10px;
+        width: 150px;
+        font-size: 5px;
+        right: -62px;
+        top: 11px;
+    }
+
+    .customhoalist {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .customimage {
+        width: 95%;
+        height: 95%;
+        max-width: 200px;
+        /* Đặt giá trị max-width phù hợp với yêu cầu của bạn */
+    }
+
+    .customatext {
+        font-size: small;
+    }
+
+    .customPricetext {
+        font-size: x-small;
+    }
+
+    .custombutton {
+        padding: 3px 15px;
+    }
+
+    .customonclickblock {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .custombutton {
+        padding: 8px 20px;
+        font-size: 10px;
+    }
+
+    .customtitlecontainer {
+        margin: 10px;
+    }
+
+    .customtextdebutton {
+        padding: 6px 20px;
+        font-size: 14px;
+        /* Điều chỉnh kích thước chữ cho màn nhỏ hơn */
+    }
+
+    .customtexthoa {
+        font-size: 14px;
+    }
+
+    .custombuttonflowew {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 430px) {
+    .customflexbox {
+        flex: 0 0 100%;
+        box-sizing: border-box;
+    }
+
+    .customdanhmuchoabox {
+        font-size: 10px;
+        width: 150px;
+        font-size: 5px;
+        right: -62px;
+        top: 11px;
+    }
+
+    .customhoalist {
+        padding: 0;
+        margin: 0 31px;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .customimage {
+        width: 95%;
+        height: 95%;
+        max-width: 200px;
+        /* Đặt giá trị max-width phù hợp với yêu cầu của bạn */
+    }
+
+    .customatext {
+        font-size: small;
+    }
+
+    .customPricetext {
+        font-size: x-small;
+    }
+
+    .custombutton {
+        padding: 3px 15px;
+    }
+
+    .customonclickblock {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .custombutton {
+        padding: 8px 20px;
+        font-size: 10px;
+    }
+
+    .customtitlecontainer {
+        margin: 10px;
+    }
+
+    .customtextdebutton {
+        padding: 6px 20px;
+        font-size: 14px;
+        /* Điều chỉnh kích thước chữ cho màn nhỏ hơn */
+    }
+
+    .customtexthoa {
+        font-size: 14px;
+    }
+
+    .custombuttonflowew {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 414px) {
+    .customflexbox {
+        flex: 0 0 100%;
+        box-sizing: border-box;
+    }
+
+    .customdanhmuchoabox {
+        font-size: 10px;
+        width: 150px;
+        font-size: 5px;
+        right: -62px;
+        top: 11px;
+    }
+
+    .customhoalist {
+        padding: 0 13px;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .customimage {
+        width: 95%;
+        height: 95%;
+        max-width: 200px;
+        /* Đặt giá trị max-width phù hợp với yêu cầu của bạn */
+    }
+
+    .customatext {
+        font-size: small;
+    }
+
+    .customPricetext {
+        font-size: x-small;
+    }
+
+    .custombutton {
+        padding: 3px 15px;
+    }
+
+    .customonclickblock {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .custombutton {
+        padding: 8px 20px;
+        font-size: 10px;
+    }
+
+    .customtitlecontainer {
+        margin: 10px;
+    }
+
+    .customtextdebutton {
+        padding: 6px 20px;
+        font-size: 14px;
+        /* Điều chỉnh kích thước chữ cho màn nhỏ hơn */
+    }
+
+    .customtexthoa {
+        font-size: 14px;
+    }
+
+    .custombuttonflowew {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 393px) {
+    .customflexbox {
+        flex: 0 0 100%;
+        box-sizing: border-box;
+    }
+
+    .customdanhmuchoabox {
+        font-size: 10px;
+        width: 150px;
+        font-size: 5px;
+        right: -62px;
+        top: 11px;
+    }
+
+    .customhoalist {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .customimage {
+        width: 95%;
+        height: 95%;
+        max-width: 200px;
+        /* Đặt giá trị max-width phù hợp với yêu cầu của bạn */
+    }
+
+    .customatext {
+        font-size: small;
+    }
+
+    .customPricetext {
+        font-size: x-small;
+    }
+
+    .custombutton {
+        padding: 3px 15px;
+    }
+
+    .customonclickblock {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .custombutton {
+        padding: 8px 20px;
+        font-size: 10px;
+    }
+
+    .customtitlecontainer {
+        margin: 10px;
+    }
+
+    .customtextdebutton {
+        padding: 6px 20px;
+        font-size: 14px;
+        /* Điều chỉnh kích thước chữ cho màn nhỏ hơn */
+    }
+
+    .customtexthoa {
+        font-size: 14px;
+    }
+
+    .custombuttonflowew {
+        font-size: 14px;
+    }
+}
+
+/*  */
+
+@media (max-width: 384px) {
+    .customflexbox {
+        flex: 0 0 100%;
+        box-sizing: border-box;
+    }
+
+    .customdanhmuchoabox {
+        font-size: 10px;
+        width: 140px;
+        font-size: 5px;
+        right: -54px;
+        top: 11px;
+    }
+
+    .customhoalist {
+        padding: 0 4px;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .customimage {
+        width: 95%;
+        height: 95%;
+        max-width: 200px;
+        /* Đặt giá trị max-width phù hợp với yêu cầu của bạn */
+    }
+
+    .customatext {
+        font-size: small;
+    }
+
+    .customPricetext {
+        font-size: x-small;
+    }
+
+    .custombutton {
+        padding: 3px 15px;
+    }
+
+    .customonclickblock {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .custombutton {
+        padding: 8px 20px;
+        font-size: 10px;
+    }
+
+    .customtitlecontainer {
+        margin: 10px;
+    }
+
+    .customtextdebutton {
+        padding: 6px 20px;
+        font-size: 14px;
+        /* Điều chỉnh kích thước chữ cho màn nhỏ hơn */
+    }
+
+    .customtexthoa {
+        font-size: 14px;
+    }
+
+    .custombuttonflowew {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    .customflexbox {
+        flex: 0 0 100%;
+        box-sizing: border-box;
+    }
+
+    .customdanhmuchoabox {
+        font-size: 10px;
+        width: 130px;
+        font-size: 5px;
+        right: -54px;
+        top: 11px;
+    }
+
+    .customhoalist {
+        padding: 0 7px;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .customimage {
+        width: 95%;
+        height: 95%;
+        max-width: 200px;
+        /* Đặt giá trị max-width phù hợp với yêu cầu của bạn */
+    }
+
+    .customatext {
+        font-size: small;
+    }
+
+    .customPricetext {
+        font-size: x-small;
+    }
+
+    .custombutton {
+        padding: 3px 15px;
+    }
+
+    .customonclickblock {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .custombutton {
+        padding: 8px 20px;
+        font-size: 10px;
+    }
+
+    .customtitlecontainer {
+        margin: 10px;
+    }
+
+    .customtextdebutton {
+        padding: 6px 20px;
+        font-size: 14px;
+        /* Điều chỉnh kích thước chữ cho màn nhỏ hơn */
+    }
+
+    .customtexthoa {
+        font-size: 14px;
+    }
+
+    .custombuttonflowew {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .customflexbox {
+        flex: 0 0 100%;
+        box-sizing: border-box;
+    }
+
+    .customlishoabox {
+        flex: 0 0 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .customdanhmuchoabox {
+        font-size: 10px;
+        width: 180px;
+        font-size: 10px;
+        right: -122px;
+        top: 11px;
+    }
+
+    .customhoalist {
+        padding: 0 10px;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .customimage {
+        width: 95%;
+        height: 95%;
+        max-width: 240px;
+        /* Đặt giá trị max-width phù hợp với yêu cầu của bạn */
+    }
+
+    .customatext {
+        font-size: small;
+    }
+
+    .customPricetext {
+        font-size: x-small;
+    }
+
+    .custombutton {
+        padding: 3px 15px;
+    }
+
+    .customonclickblock {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .custombutton {
+        padding: 8px 20px;
+        font-size: 10px;
+    }
+
+    .customtitlecontainer {
+        margin: 10px;
+    }
+
+    .customtextdebutton {
+        padding: 6px 20px;
+        font-size: 14px;
+        /* Điều chỉnh kích thước chữ cho màn nhỏ hơn */
+    }
+
+    .customtexthoa {
+        font-size: 14px;
+    }
+
+    .custombuttonflowew {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 240px) {
+    .customflexbox {
+        flex: 0 0 100%;
+        box-sizing: border-box;
+    }
+
+    .customdanhmuchoabox {
+        font-size: 10px;
+        width: 160px;
+        font-size: 5px;
+        right: -54px;
+        top: 11px;
+    }
+
+    .customhoalist {
+        padding: 0 10px;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .customimage {
+        width: 95%;
+        height: 95%;
+        max-width: 200px;
+        /* Đặt giá trị max-width phù hợp với yêu cầu của bạn */
+    }
+
+    .customatext {
+        font-size: small;
+    }
+
+    .customPricetext {
+        font-size: x-small;
+    }
+
+    .custombutton {
+        padding: 3px 15px;
+    }
+
+    .customonclickblock {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .custombutton {
+        padding: 8px 20px;
+        font-size: 10px;
+    }
+
+    .customtitlecontainer {
+        margin: 10px;
+    }
+
+    .customtextdebutton {
+        padding: 6px 20px;
+        font-size: 10px;
+        /* Điều chỉnh kích thước chữ cho màn nhỏ hơn */
+    }
+
+    .customtexthoa {
+        font-size: 14px;
+    }
+
+    .custombuttonflowew {
+        font-size: 10px;
+    }
+
+    .customdanhmuchoatext {
+        font-size: 10px;
+    }
+}

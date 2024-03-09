@@ -1,0 +1,913 @@
+.customelement {
+    display: block;
+    vertical-align: top;
+    background: #231F20;
+}
+
+.customcontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.divpadding {
+    padding: 20px 0;
+}
+
+.customelementdiv {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+
+.customtext {
+    padding: 10px 0;
+    color: #fff;
+}
+
+.fontsizetuvan {
+    font-size: 20pt;
+}
+
+.poisitiondiv {
+    position: relative;
+}
+
+.customecocontainer {
+    display: flex;
+    align-items: center;
+}
+
+.divdisplay {
+    display: block;
+}
+
+.inputcustom {
+    width: 500px;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    writing-mode: horizontal-tb;
+    padding-block: 1px;
+    padding-inline: 2px;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    appearance: auto;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+.custombuttondom {
+    height: 40px;
+    color: white;
+    padding: 0 20px;
+    background: #0084CB;
+    font-size: 18px;
+    border-radius: 3px;
+    border: 1px solid #0084CB;
+}
+
+.customiconelement {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.customicontext {
+    text-align: right;
+    display: block;
+}
+
+.customiconelementcus {
+    color: #fff;
+    position: relative;
+}
+
+.customdomicondes {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    line-height: 1;
+}
+
+.divcustomfootercontainer {
+    display: block;
+    vertical-align: top;
+    background: #FF9800;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.customwrapper {
+    max-width: 1200px;
+    margin: auto;
+    display: block;
+}
+
+.customfooterdivider {
+    display: block;
+    vertical-align: top;
+    border-bottom: 1px solid #fff;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.customtextfootrt {
+    display: block;
+    color: #FFFFFF;
+}
+
+.customtextcontainerFooter {
+    padding: 20px 0;
+    position: relative;
+    display: block;
+    color: #FFFFFF;
+}
+
+.customtextcondes {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.customdsftext {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.customfsmelement {
+    position: relative;
+    display: block;
+}
+
+.pcustomtext {
+    text-align: justify;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.spancustomtext {
+    font-size: 11pt;
+    color: #9c0808;
+}
+
+.zalodiv {
+    display: block;
+}
+
+.qrcustomtext {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 0 0 20px;
+}
+
+.imgcustomelement {
+    padding: 0 10px 0 20px;
+    position: relative;
+    display: block;
+    color: #FFFFFF;
+}
+
+.customlogotext {
+    text-align: center;
+    display: block;
+}
+
+.divcustomimage {
+    width: 200px;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.hotrocustomelement {
+    display: block;
+    color: #FFFFFF;
+}
+
+.camketcustomelement {
+    position: relative;
+    display: block;
+    color: #FFFFFF;
+    padding: 0 10px 0 20px;
+}
+
+.dambaocustomtext {
+    font-size: 11pt;
+    color: #FFFFFF;
+}
+
+.thanhtoancustomtext {
+    font-size: 14.6667px;
+    color: #FFFFFF;
+}
+
+.tuyendungcustomelement {
+    padding: 0 10px 0 20px;
+    position: relative;
+    display: block;
+}
+
+.newcustomcontainer {
+    display: block;
+    vertical-align: top;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.newcustompadding {
+    padding: 10px 0;
+}
+
+.newpcustomcenter {
+    text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.newfontsizecus {
+    font-size: 14.6667px;
+}
+
+.emailcus {
+    font-size: 11pt;
+}
+
+/* reponsive */
+/* reponsive */
+@media (max-width: 956px) {
+
+    .customelementdiv,
+    .customiconelement {
+        width: 100%;
+    }
+
+    .customtextfootrt {
+        text-align: center;
+    }
+
+    .customlogotext {
+        text-align: center;
+    }
+
+    .imgcustomelement {
+        padding: 0;
+    }
+
+    .custombuttondom {
+        width: 10%;
+        /* Đặt lại chiều rộng */
+        font-size: 16px;
+        /* Điều chỉnh kích thước chữ nếu cần thiết */
+    }
+
+    .inputcustom {
+        font-size: 16px;
+        width: 520px;
+    }
+
+    .customtext {
+        text-align: center;
+    }
+
+    .customecocontainer {
+        padding: 0px 179px;
+    }
+
+    .customiconelementcus {
+        text-align: center;
+    }
+}
+
+@media (max-width: 834px) {
+
+    .customelementdiv,
+    .customiconelement {
+        width: 100%;
+    }
+
+    .customtextfootrt {
+        text-align: center;
+    }
+
+    .customlogotext {
+        text-align: center;
+    }
+
+    .imgcustomelement {
+        padding: 0;
+    }
+
+    .custombuttondom {
+        width: 13%;
+        /* Đặt lại chiều rộng */
+        font-size: 16px;
+        /* Điều chỉnh kích thước chữ nếu cần thiết */
+    }
+
+    .inputcustom {
+        font-size: 16px;
+        width: 520px;
+    }
+
+    .customicontext {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .customtext {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .customecocontainer {
+        padding-left: 100px;
+    }
+
+    .pcustomtext {
+        padding: 0px 5px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .customelementdiv,
+    .customiconelement {
+        width: 100%;
+    }
+
+    .customtextfootrt {
+        text-align: center;
+    }
+
+    .customlogotext {
+        text-align: center;
+    }
+
+    .imgcustomelement {
+        padding: 0;
+    }
+
+    .custombuttondom {
+        width: 16%;
+        /* Đặt lại chiều rộng */
+        font-size: 16px;
+        /* Điều chỉnh kích thước chữ nếu cần thiết */
+    }
+
+    .inputcustom {
+        font-size: 16px;
+        width: 520px;
+    }
+
+    .customicontext {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .customtext {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .customecocontainer {
+        padding-left: 45px;
+    }
+
+    .pcustomtext {
+        padding: 0px 5px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .customelementdiv,
+    .customiconelement {
+        width: 100%;
+    }
+
+    .customtextfootrt {
+        text-align: center;
+    }
+
+    .customlogotext {
+        text-align: center;
+    }
+
+    .imgcustomelement {
+        padding: 0;
+    }
+
+    .custombuttondom {
+        width: 18%;
+        /* Đặt lại chiều rộng */
+        font-size: 16px;
+        /* Điều chỉnh kích thước chữ nếu cần thiết */
+    }
+
+    .inputcustom {
+        font-size: 16px;
+        width: 450px;
+    }
+
+    .customicontext {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .customtext {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .customecocontainer {
+        padding-left: 28px;
+    }
+
+    .pcustomtext {
+        padding: 0px 5px;
+    }
+}
+
+/* ip14 promax */
+@media (max-width: 430px) {
+
+    .customelementdiv,
+    .customiconelement {
+        width: 100%;
+    }
+
+    .customtextfootrt {
+        text-align: center;
+    }
+
+    .customlogotext {
+        text-align: center;
+    }
+
+    .imgcustomelement {
+        padding: 0;
+    }
+
+    .custombuttondom {
+        width: 10%;
+        /* Đặt lại chiều rộng */
+        font-size: 16px;
+        text-align: center;
+        padding: 2px;
+        /* Điều chỉnh kích thước chữ nếu cần thiết */
+    }
+
+    .inputcustom {
+        font-size: 12px;
+        width: 358px;
+    }
+
+    .customicontext {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .customtext {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .customecocontainer {
+        padding-left: 16px;
+    }
+
+    .pcustomtext {
+        padding: 0px 5px;
+    }
+}
+
+@media (max-width: 414px) {
+
+    .customelementdiv,
+    .customiconelement {
+        width: 100%;
+    }
+
+    .customtextfootrt {
+        text-align: center;
+    }
+
+    .customlogotext {
+        text-align: center;
+    }
+
+    .imgcustomelement {
+        padding: 0;
+    }
+
+    .custombuttondom {
+        width: 14%;
+        /* Đặt lại chiều rộng */
+        font-size: 10px;
+        text-align: center;
+        padding: 2px;
+        /* Điều chỉnh kích thước chữ nếu cần thiết */
+    }
+
+    .inputcustom {
+        font-size: 10px;
+        width: 300px;
+    }
+
+    .customicontext {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .customtext {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .customecocontainer {
+        padding-left: 42px;
+    }
+
+    .newpcustomcenter {
+        padding: 1px;
+        text-align: center;
+    }
+
+    .pcustomtext {
+        padding: 0px 5px;
+    }
+}
+
+@media (max-width: 412px) {
+
+    .customelementdiv,
+    .customiconelement {
+        width: 100%;
+    }
+
+    .customtextfootrt {
+        text-align: center;
+    }
+
+    .customlogotext {
+        text-align: center;
+    }
+
+    .imgcustomelement {
+        padding: 0;
+    }
+
+    .custombuttondom {
+        width: 14%;
+        /* Đặt lại chiều rộng */
+        font-size: 10px;
+        /* Điều chỉnh kích thước chữ nếu cần thiết */
+    }
+
+    .inputcustom {
+        font-size: 10px;
+        width: 300px;
+    }
+
+    .customicontext {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .customtext {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .customecocontainer {
+        padding-left: 18px;
+    }
+
+    .newpcustomcenter {
+        padding: 1px;
+        text-align: center;
+    }
+
+    .pcustomtext {
+        padding: 0px 5px;
+    }
+}
+
+@media (max-width: 393px) {
+
+    .customelementdiv,
+    .customiconelement {
+        width: 100%;
+    }
+
+    .customtextfootrt {
+        text-align: center;
+    }
+
+    .customlogotext {
+        text-align: center;
+    }
+
+    .imgcustomelement {
+        padding: 0;
+    }
+
+    .custombuttondom {
+        width: 14%;
+        /* Đặt lại chiều rộng */
+        font-size: 10px;
+        /* Điều chỉnh kích thước chữ nếu cần thiết */
+    }
+
+    .inputcustom {
+        font-size: 10px;
+        width: 300px;
+    }
+
+    .customicontext {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .customtext {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .customecocontainer {
+        padding-left: 11px;
+    }
+
+    .newpcustomcenter {
+        padding: 1px;
+        text-align: center;
+    }
+
+    .pcustomtext {
+        padding: 0px 5px;
+    }
+}
+
+@media (max-width: 390px) {
+
+    .customelementdiv,
+    .customiconelement {
+        width: 100%;
+    }
+
+    .customtextfootrt {
+        text-align: center;
+    }
+
+    .customlogotext {
+        text-align: center;
+    }
+
+    .imgcustomelement {
+        padding: 0;
+    }
+
+    .custombuttondom {
+        width: 14%;
+        /* Đặt lại chiều rộng */
+        font-size: 10px;
+        /* Điều chỉnh kích thước chữ nếu cần thiết */
+    }
+
+    .inputcustom {
+        font-size: 10px;
+        width: 300px;
+    }
+
+    .customicontext {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .customtext {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .customecocontainer {
+        padding-left: 16px;
+    }
+
+    .newpcustomcenter {
+        padding: 1px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .pcustomtext {
+        padding: 0px 5px;
+    }
+}
+
+@media (max-width: 384px) {
+
+    .customelementdiv,
+    .customiconelement {
+        width: 100%;
+    }
+
+    .customtextfootrt {
+        text-align: center;
+    }
+
+    .customlogotext {
+        text-align: center;
+    }
+
+    .imgcustomelement {
+        padding: 0;
+    }
+
+    .custombuttondom {
+        width: 14%;
+        /* Đặt lại chiều rộng */
+        font-size: 10px;
+        text-align: center;
+        padding: 2px;
+        /* Điều chỉnh kích thước chữ nếu cần thiết */
+    }
+
+    .inputcustom {
+        font-size: 10px;
+        width: 300px;
+    }
+
+    .customicontext {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .customtext {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .customecocontainer {
+        padding-left: 18px;
+    }
+
+    .newpcustomcenter {
+        padding: 1px;
+        text-align: center;
+    }
+
+    .pcustomtext {
+        padding: 0px 5px;
+    }
+
+    .newpcustomcenter {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .customelementdiv,
+    .customiconelement {
+        width: 100%;
+    }
+
+    .customtextfootrt {
+        text-align: center;
+    }
+
+    .customlogotext {
+        text-align: center;
+    }
+
+    .imgcustomelement {
+        padding: 0;
+    }
+
+    .custombuttondom {
+        width: 13%;
+        /* Đặt lại chiều rộng */
+        font-size: 10px;
+        text-align: center;
+        padding: 2px;
+        /* Điều chỉnh kích thước chữ nếu cần thiết */
+    }
+
+    .inputcustom {
+        font-size: 10px;
+        width: 280px;
+    }
+
+    .customicontext {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .customtext {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .customecocontainer {
+        padding-left: 24px;
+    }
+
+    .newpcustomcenter {
+        padding: 1px;
+        text-align: center;
+    }
+
+    .pcustomtext {
+        padding: 0px 5px;
+    }
+
+    .newpcustomcenter {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 240px) {
+
+    .customelementdiv,
+    .customiconelement {
+        width: 100%;
+    }
+
+    .customtextfootrt {
+        text-align: center;
+    }
+
+    .customlogotext {
+        text-align: center;
+    }
+
+    .imgcustomelement {
+        padding: 0;
+    }
+
+    .custombuttondom {
+        width: 18%;
+        /* Đặt lại chiều rộng */
+        font-size: 9px;
+        /* Điều chỉnh kích thước chữ nếu cần thiết */
+    }
+
+    .inputcustom {
+        font-size: 6px;
+        width: 167px;
+    }
+
+    .customicontext {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .customtext {
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .customecocontainer {
+        padding-left: 7px;
+    }
+
+    .newpcustomcenter {
+        padding: 1px;
+        text-align: center;
+    }
+
+    .pcustomtext {
+        padding: 0px 5px;
+    }
+
+    .newpcustomcenter {
+        font-size: 12px;
+    }
+}
